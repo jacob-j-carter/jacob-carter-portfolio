@@ -8,6 +8,7 @@ import Layout from "../layouts/Layout.astro";
 import Button from "../components/interactive/Button.vue";
 import { Icon } from 'astro-icon';
 import Hero from '../components/index/Hero.vue';
+import Marquee from '../components/index/Marquee.vue';
 
 
 // Importing local SCSS
@@ -23,5 +24,8 @@ let currentPage = pageData[0].pageName;
 	
 	<!-- Hero Section -->
 	<Hero />
+
+	<!-- Marquee -->
+	<Marquee />
 
 </Layout>

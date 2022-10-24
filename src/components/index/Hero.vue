@@ -12,7 +12,7 @@
 			jacob carter is a digital developer and lover of coffee
 		</h2>
 
-    <button class="flex mt-8">
+    <button class="flex mt-12 font-size-28">
       Say Hello
       <div class="w-6 ml-4">
         <img src="/assets/images/icons/handwave.svg" alt="hand waving icon" class="w-full" />
