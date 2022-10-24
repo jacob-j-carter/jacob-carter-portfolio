@@ -3,7 +3,7 @@
   <section class="mt-40">
 		
     <article class="wrapper px-4">
-      <h1 class="text-white">
+      <h1 class="text-stone-200">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
         <span class="header-portion">digital developer </span>

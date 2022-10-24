@@ -95,6 +95,9 @@ $body-font: 'Gontserrat', sans-serif;
 .body-font {
   font-family: $body-font;
 }
+.display-font {
+  font-family: 'FogTwoNo5', serif;
+}
 
 
 // ==== Text Styling ====
@@ -133,6 +136,6 @@ h6 {
 p, a, b, strong, em, i, mark, select, blockquote, input {
   @include font-size(16rem, 16vw);
   // Sets line-height for all non-heading text:
-  line-height: 140%;
+  line-height: 150%;
   font-family: $body-font;
 }

@@ -6,3 +6,27 @@
 * {
   transition: all 100ms linear;
 }
+
+.blur-container-1 {
+  height: 35em;
+  top:87.5em;
+  left:-5em;
+  animation: blurSpin 10000ms linear infinite;
+
+  .yellow-blur {
+    background: radial-gradient(50% 50% at 50% 50%, #F7B801 0%, rgba(247, 184, 1, 0) 100%);
+    opacity: 0.7;
+    filter: blur(25px);
+    aspect-ratio: 1;
+    width: 10em;
+  }
+
+  @keyframes blurSpin {
+    0% {
+      rotate: 0deg;
+    }
+    100% {
+      rotate: 360deg;
+    }
+  }
+}

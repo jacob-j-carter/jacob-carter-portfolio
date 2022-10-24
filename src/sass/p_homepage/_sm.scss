@@ -1,4 +1,11 @@
 @use '../abstracts' as *;
 @use '../themes' as *;
 
-  // ==== For Mobile Screens Only [Mobile-First Design] ====
+// ==== For Mobile Screens Only [Mobile-First Design] ====
+
+p {
+  img {
+    margin-top: -5em;
+    margin-bottom: -5em;
+  }
+}
