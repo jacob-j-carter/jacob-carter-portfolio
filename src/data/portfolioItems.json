@@ -45,5 +45,36 @@
     "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png",
     "itemHREF": "/library/m2-tiles-and-paint"
 
+  },
+  {
+    "name": "Sports & Play Pack",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "web design"
+      },
+      {
+        "tag": "ecommerce"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/sportsandplaypack/showcase/mockups/macbook.png",
+    "itemHREF": "/library/sports-and-play-pack"
+
+  },
+  {
+    "name": "Interior Design Solutions",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "web design"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/interiordesignsolutions/showcase/mockups/macbook.png",
+    "itemHREF": "/library/interior-design-solutions"
+
   }
 ]
