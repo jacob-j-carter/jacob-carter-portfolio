@@ -73,6 +73,7 @@ export default {
   .blur-container-2 {
   height: 40em;
   bottom:0em;
+  z-index: -1;
   animation: blurSpin 20000ms linear infinite;
   position: absolute;
 
