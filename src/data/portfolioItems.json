@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Sports Talent",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "web design"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png"
+  },
+  {
+    "name": "CSS Display Info",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "web design"
+      },
+      {
+        "tag": "side project"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/cssdisplayinfo/showcase/mockups/macbook.png"
+  },
+  {
+    "name": "M2 Tiles & Paint",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "web design"
+      },
+      {
+        "tag": "ecommerce"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png"
+  }
+]

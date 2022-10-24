@@ -9,6 +9,7 @@ import Button from "../components/interactive/Button.vue";
 import { Icon } from 'astro-icon';
 import Hero from '../components/index/Hero.vue';
 import Marquee from '../components/index/Marquee.vue';
+import LibraryItems from '../components/index/LibraryItems.vue';
 
 
 // Importing local SCSS
@@ -110,7 +111,9 @@ let currentPage = pageData[0].pageName;
 	<section class="mt-40">
 		<article class="px-4 wrapper">
 			<h2 class="display-font text-stone-100 font-size-96">03/</h2>
-			<h2 class="text-white font-size-96" id="library">Library</h2>
+			<h2 class="text-white font-size-96 mb-16" id="library">Library</h2>
+
+			<LibraryItems />
 		</article>
 	</section>
 
