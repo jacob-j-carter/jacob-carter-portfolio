@@ -35,14 +35,14 @@ export default {
   @use '../../sass/themes' as *;
 
   button {
-    background-color: $primary-50;
+    background-color: red;
     font-family: $button-font;
     font-weight: 700;
     cursor: pointer;
     
 
     &:hover {
-      background-color: $primary-60;
+      background-color: red;
     }
   }
 

@@ -1,16 +1,16 @@
 <template>
 
-  <header class="flex justify-between items-center w-full p-2 mx-auto absolute z-10">
+  <header class="flex justify-between items-center w-full p-4 mx-auto absolute z-10">
 
-  <div class="w-16 h-16 bg-stone-500 rounded-xl p-2">
-    <a href="/">
-      <Icon icon="carbon:logo-vue" width="100%" class="text-white" />
-    </a>
-  </div>
+  <a href="/">
+    <h2 class="md:hidden text-white font-size-72 header-logo">C</h2>
+    <h2 class="hidden md:flex uppercase text-white font-size-72 header-logo">Carter</h2>
+  </a>
 
-  <div class="w-16 h-16 bg-stone-500 rounded-xl p-2" @click="$emit('toggle-menu')">
+  <div class="" @click="$emit('toggle-menu')">
 
-    <Icon icon="cil:hamburger-menu" width="100%" class="text-white" />
+    <img src="/assets/images/icons/burgermenu.svg" alt="open menu icon">
+
   </div>
 
   </header>
@@ -49,6 +49,8 @@ export default {
   @use '../../sass/abstracts' as *;
   @use '../../sass/themes' as *;
 
-
+  .header-logo {
+    font-family: 'FogTwoNo5', sans-serif;
+  }
 
 </style>
