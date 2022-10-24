@@ -1,0 +1,13 @@
+
+@use '../abstracts' as *;
+@use '../themes' as *;
+
+// Global Button Styling
+
+button {
+  cursor: pointer;
+
+  // Placeholder Values:
+  font-family: $button-font;
+
+}

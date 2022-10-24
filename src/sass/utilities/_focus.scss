@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+@use '../themes' as *;
+
+:focus {
+  outline: 1px cornflowerblue solid;
+  outline-offset: 1px;
+}
+
+
+

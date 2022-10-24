@@ -1,0 +1,74 @@
+---
+// Global SCSS
+import '../sass/global/global.scss';
+
+// Global Layouts
+import Header from '../layouts/Header.vue';
+import Footer from '../layouts/Footer.vue';
+
+
+// Cheeky Components
+import Coffee from '../components/Coffee.astro';
+import ComingSoon from '../components/utility/ComingSoon.vue';
+
+
+
+
+export interface Props {
+  title?: string;
+  page?: string;
+}
+
+const { title = "Astro Webapp", page } = Astro.props as Props;
+
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ==== Font Awesome Icon (optional) ==== -->
+    <!-- <script src="https://kit.fontawesome.com/c735b8632d.js" crossorigin="anonymous"></script> -->
+
+    <!-- ==== Iconify Icons (optional) ==== -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <!-- ==== SEO ==== -->
+    <title>{ title }</title>
+    <meta name="description" content="A template Astro JS site.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jacob Carter">
+    <!-- ===  Favicon === -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    
+  </head>
+  <body>
+    
+    <!-- Under construction page -->
+    <!-- <ComingSoon /> -->
+
+
+    <!-- 'Skip to main content' button for accessability -->
+    <a href="#main-content" class="skip-main-content">
+      Skip to main content
+    </a> 
+   
+    <Header client:load pageName={page} />
+
+    <Coffee />
+    <!-- === Main Content === -->
+    <main id="main-content" class="w-screen">
+
+       <slot />
+
+    </main>
+
+    <Footer />
+
+  </body>
+</html>

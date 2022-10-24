@@ -1,0 +1,24 @@
+---
+
+// Importing data
+import pageData from '../data/pageData.json';
+
+// Importing components
+import Layout from "../layouts/Layout.astro";
+import Button from "../components/interactive/Button.vue";
+import { Icon } from 'astro-icon';
+
+
+// Importing local SCSS
+import '../sass/p_homepage/index.scss';
+
+
+let currentPage = pageData[0].pageName;
+
+---
+
+<Layout title={'Homepage'} page={currentPage} >
+	<!-- HTML content -->
+	
+
+</Layout>

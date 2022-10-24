@@ -1,0 +1,8 @@
+@use '../abstracts' as *;
+@use '../themes' as *;
+
+// Header/Navigation Menu
+header {
+  // position:fixed;
+  z-index: 99;
+}
