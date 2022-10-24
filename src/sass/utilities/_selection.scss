@@ -2,10 +2,12 @@
 @use '../themes' as *;
 
 ::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+  background: #fff; /* WebKit/Blink Browsers */
+  color: black;
 }
 ::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #fff; /* Gecko Browsers */
+  color: black;
 }
 
 

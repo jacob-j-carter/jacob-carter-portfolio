@@ -2,21 +2,21 @@
 
 // === Primary Color ===
 
-@mixin primary-bg ($shade) {
-    background-color: hsl(359, 84%, (100%-$shade));
-}
-@mixin primary-color ($shade) {
-    color: hsl(359, 84%, (100%-$shade));
-}
+// @mixin primary-bg ($shade) {
+//     background-color: hsl(359, 84%, (100%-$shade));
+// }
+// @mixin primary-color ($shade) {
+//     color: hsl(359, 84%, (100%-$shade));
+// }
 
-$primary: #ec2226; // Hex Value
+$primary: #F7B801; // Hex Value
 
-$primary-10: hsl(359, 84%, (100%-10%));
-$primary-20: hsl(359, 84%, (100%-20%));
-$primary-30: hsl(359, 84%, (100%-30%));
-$primary-40: hsl(359, 84%, (100%-40%));
-$primary-50: hsl(359, 84%, (100%-50%));
-$primary-60: hsl(359, 84%, (100%-60%));
-$primary-70: hsl(359, 84%, (100%-70%));
-$primary-80: hsl(359, 84%, (100%-80%));
-$primary-90: hsl(359, 84%, (100%-90%));
+// $primary-10: hsl(359, 84%, (100%-10%));
+// $primary-20: hsl(359, 84%, (100%-20%));
+// $primary-30: hsl(359, 84%, (100%-30%));
+// $primary-40: hsl(359, 84%, (100%-40%));
+// $primary-50: hsl(359, 84%, (100%-50%));
+// $primary-60: hsl(359, 84%, (100%-60%));
+// $primary-70: hsl(359, 84%, (100%-70%));
+// $primary-80: hsl(359, 84%, (100%-80%));
+// $primary-90: hsl(359, 84%, (100%-90%));
