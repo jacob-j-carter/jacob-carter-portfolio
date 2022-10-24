@@ -9,7 +9,8 @@
         "tag": "web design"
       }
     ],
-    "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png"
+    "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png",
+    "itemHREF": "/library/sports-talent"
   },
   {
     "name": "CSS Display Info",
@@ -24,7 +25,9 @@
         "tag": "side project"
       }
     ],
-    "thumbnailURL": "/assets/images/portfolio/cssdisplayinfo/showcase/mockups/macbook.png"
+    "thumbnailURL": "/assets/images/portfolio/cssdisplayinfo/showcase/mockups/macbook.png",
+    "itemHREF": "/library/css-display-info"
+
   },
   {
     "name": "M2 Tiles & Paint",
@@ -39,6 +42,8 @@
         "tag": "ecommerce"
       }
     ],
-    "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png"
+    "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png",
+    "itemHREF": "/library/m2-tiles-and-paint"
+
   }
 ]
