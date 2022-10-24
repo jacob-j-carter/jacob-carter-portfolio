@@ -3,8 +3,8 @@
   <header class="flex justify-between items-center w-full p-4 mx-auto absolute z-10">
 
   <a href="/">
-    <h2 class="md:hidden text-white font-size-72 header-logo">C</h2>
-    <h2 class="hidden md:flex uppercase text-white font-size-72 header-logo">Carter</h2>
+    <h2 class="md:hidden text-white font-size-96 header-logo">C</h2>
+    <h2 class="hidden md:flex uppercase text-white font-size-96 header-logo">Carter</h2>
   </a>
 
   <div class="" @click="$emit('toggle-menu')">

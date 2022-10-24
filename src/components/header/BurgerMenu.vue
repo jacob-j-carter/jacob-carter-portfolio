@@ -8,9 +8,9 @@
         <Icon icon="ei:close" width="32" class="text-black absolute right-4 top-4 w-8 h-8" />
       </div>
 
-      <div :key="page.pageName" v-for="page in pages" class="my-4">
+      <div :key="page.pageName" v-for="page in pages" class="my-8">
         <a :href="page.pageHREF" @click="$emit('close-nav')">
-          <h3 class="uppercase text-white" :class="[pageName == page.pageName ? 'underline' : '']">
+          <h3 class="uppercase text-black" :class="[pageName == page.pageName ? 'heading-font' : 'button-font']">
             {{ page.pageName }}
           </h3>
         </a>

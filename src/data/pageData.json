@@ -2,5 +2,13 @@
   {
     "pageName": "home",
     "pageHREF": "/"
+  },
+  {
+    "pageName": "library",
+    "pageHREF": "/#library"
+  },
+  {
+    "pageName": "contact",
+    "pageHREF": "/#contact"
   }
 ]

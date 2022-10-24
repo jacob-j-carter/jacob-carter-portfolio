@@ -17,6 +17,9 @@
 
 
 // === Default classes to use in HTML ===
+.font-size-160 {
+  @include font-size(160rem, 160vw);
+} 
 .font-size-128 {
   @include font-size(128rem, 128vw);
 } 
@@ -79,7 +82,7 @@
 } 
 
 // === Fonts ===
-$heading-font: 'Felix' sans-serif;
+$heading-font: 'Felix', sans-serif;
 $button-font: 'Julius', sans-serif;
 $body-font: 'Gontserrat', sans-serif;
 
