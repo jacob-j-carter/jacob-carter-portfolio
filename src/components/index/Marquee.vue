@@ -29,14 +29,12 @@
 
 <script lang="ts">
 import MarqueeItem from './MarqueeItem.vue';
-
 export default {
   name: 'Marquee',
   components: {
     MarqueeItem
 }
 }
-
 </script>
 
 
@@ -50,12 +48,10 @@ export default {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
   }
-
   section {
     rotate: -5deg;
     width: 105%;
     margin-left: -.5em;
     overflow: clip;
   }
-
 </style>
