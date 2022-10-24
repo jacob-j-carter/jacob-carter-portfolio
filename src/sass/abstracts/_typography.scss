@@ -136,6 +136,6 @@ h6 {
 p, a, b, strong, em, i, mark, select, blockquote, input {
   @include font-size(16rem, 16vw);
   // Sets line-height for all non-heading text:
-  line-height: 150%;
+  line-height: 165%;
   font-family: $body-font;
 }
