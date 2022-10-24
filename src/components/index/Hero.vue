@@ -15,7 +15,7 @@
       </h2>
 
       <a href="mailto:jacob@choicedigital.studio">
-        <button class="flex mt-20 font-size-28">
+        <button class="flex mt-20 font-size-24 items-center">
           Say Hello
           <div class="w-6 ml-4">
             <img src="/assets/images/icons/handwave.svg" alt="hand waving icon" class="w-full" />
