@@ -130,7 +130,7 @@ h6 {
 }
 
 // == Body Text ==
-p, a, b, strong, em, i, button, mark, select, blockquote, input {
+p, a, b, strong, em, i, mark, select, blockquote, input {
   @include font-size(16rem, 16vw);
   // Sets line-height for all non-heading text:
   line-height: 140%;

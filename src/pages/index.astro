@@ -7,6 +7,7 @@ import pageData from '../data/pageData.json';
 import Layout from "../layouts/Layout.astro";
 import Button from "../components/interactive/Button.vue";
 import { Icon } from 'astro-icon';
+import Hero from '../components/index/Hero.vue';
 
 
 // Importing local SCSS
@@ -20,5 +21,7 @@ let currentPage = pageData[0].pageName;
 <Layout title={'Jacob Carter\'s Digital Portfolio'} page={currentPage} >
 	<!-- HTML content -->
 	
+	<!-- Hero Section -->
+	<Hero />
 
 </Layout>

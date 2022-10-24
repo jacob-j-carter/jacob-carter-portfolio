@@ -9,5 +9,14 @@ button {
 
   // Placeholder Values:
   font-family: $button-font;
+  @include font-size(20rem, 20vw);
+
+
+  color:white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-right: 1px solid rgba(255, 255, 255, 0.7);
+  padding-right: 1em;
+  padding-bottom: .25em;
+  padding-left: 1.5em;
 
 }
