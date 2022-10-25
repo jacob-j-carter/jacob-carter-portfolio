@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="blur-container-2 aspect-square flex justify-between items-center">
+    <div class="blur-container-2 flex justify-between items-center">
       <div class="yellow-blur"></div>
       <div class="yellow-blur"></div>
 		</div>
@@ -71,8 +71,9 @@ export default {
   }
 
   .blur-container-2 {
-  height: 40em;
-  bottom:0em;
+  height: 10em;
+  width: 40em;
+  bottom:14em;
   z-index: -1;
   animation: blurSpin 20000ms linear infinite;
   position: absolute;
