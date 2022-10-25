@@ -1,7 +1,7 @@
 <template>
   <div :class="[navHidden ? '' : 'overlay-on']" >
     <nav
-      class="bg-stone-600 w-2/3 md:w-2/5 right-0 flex flex-col items-center justify-center fixed z-30"
+      class="bg-stone-100 w-2/3 md:w-2/5 right-0 flex flex-col items-center justify-center fixed z-30"
       :class="[navHidden ? 'nav-hidden' : '']"
     >
       <div @click="$emit('close-nav')">
@@ -61,13 +61,6 @@ export default {
     height: 100vh;
     transition: translate 200ms linear;
 
-    
-        
-    background-color: #F6F6F6;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%25' height='100%25'%3E%3Cdefs  data-stroke-max-alt='48'%3E%3Cpattern id='p' width='100' height='100' patternUnits='userSpaceOnUse'%3E%3Cpath id='a' data-color='fill' fill='%23FFFFFF' d='M0 0h50v50H0zM50 50h50v50H50zM35.355 50h-20.71L0 64.645v20.71L14.645 100h20.71L50 85.355v-20.71zM85.355 0h-20.71L50 14.645v20.71L64.645 50h20.71L100 35.355v-20.71z'%3E%3C/path%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23p)' width='100%25' height='100%25'%3E%3C/rect%3E%3C/svg%3E");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 
 
   }
