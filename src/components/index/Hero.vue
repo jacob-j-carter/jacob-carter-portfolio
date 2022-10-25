@@ -3,7 +3,7 @@
   <section class="mt-40">
 		
     <article class="wrapper px-4">
-      <h1 class="text-stone-200">
+      <h1 class="text-stone-200 pt-4 mb-24">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
         <span class="header-portion">digital developer </span>
@@ -15,7 +15,7 @@
       </h2>
 
       <a href="mailto:jacob@choicedigital.studio">
-        <button class="flex mt-20 font-size-28 items-center">
+        <button class="flex font-size-28 items-center">
           Say Hello
           <div class="w-6 ml-4">
             <img src="/assets/images/icons/handwave.svg" alt="hand waving icon" class="w-full" />
