@@ -1,14 +1,14 @@
 <template>
   <div class="hidden lg:flex">
 
-    <header class="w-full h-16 bg-stone-700 flex items-center px-8">
+    <header class="w-full h-16 flex items-center justify-between px-8">
 
-      <div class="flex items-center w-1/3">
-        <h6 class="text-white ml-2">ASTRO TEMPLATE</h6>
-      </div>
+      <a href="/">
+        <h2 class="hidden md:flex uppercase text-white font-size-36 header-logo">Carter</h2>
+      </a>
 
-      <div class="w-2/3 flex items-center justify-end text-white">
-        <a :key="page.pageName" v-for="page in pages" :href="page.pageHREF" class="uppercase font-size-16 mx-8" :class="[pageName == page.pageName ? 'underline' : '']">{{ page.pageName }}</a>
+      <div class="flex items-center justify-end text-white">
+        <a :key="page.pageName" v-for="page in pages" :href="page.pageHREF" class="button-font font-size-14 mx-4 rounded-full page-link px-2" :class="[pageName == page.pageName ? '' : '']">{{ page.pageName }}</a>
       </div>
 
     </header>
@@ -54,6 +54,8 @@ export default {
   @use '../../sass/abstracts' as *;
   @use '../../sass/themes' as *;
 
-
+  .page-link {
+    border: 1px solid white;
+  }
 
 </style>
