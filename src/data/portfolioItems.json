@@ -10,7 +10,8 @@
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png",
-    "itemHREF": "/library/sports-talent"
+    "itemHREF": "/library/sports-talent",
+    "websiteURL": "https://sportstalent.co.uk"
   },
   {
     "name": "CSS Display Info",
@@ -29,7 +30,8 @@
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/cssdisplayinfo/showcase/mockups/macbook.png",
-    "itemHREF": "/library/css-display-info"
+    "itemHREF": "/library/css-display-info",
+    "websiteURL": "https://cssdisplay.info"
 
   },
   {
@@ -46,7 +48,8 @@
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png",
-    "itemHREF": "/library/m2-tiles-and-paint"
+    "itemHREF": "/library/m2-tiles-and-paint",
+    "websiteURL": "https://m2tilesandpaint.co.uk"
 
   },
   {
@@ -63,7 +66,8 @@
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/sportsandplaypack/showcase/mockups/macbook.png",
-    "itemHREF": "/library/sports-and-play-pack"
+    "itemHREF": "/library/sports-and-play-pack",
+    "websiteURL": "https://sportsandplaypack.co.uk"
 
   },
   {
@@ -80,7 +84,8 @@
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/interiordesignsolutions/showcase/mockups/macbook.png",
-    "itemHREF": "/library/interior-design-solutions"
+    "itemHREF": "/library/interior-design-solutions",
+    "websiteURL": "https://ids-mojacar.com"
 
   }
 ]

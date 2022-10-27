@@ -75,14 +75,18 @@ export default {
     opacity: .3;
   }
 
-  h1:hover > .header-portion:hover {
-    opacity: 1;
-    cursor:pointer;
-  }
-
 
   #header_jacob-carter {
     opacity: 1;
   }
+
+
+  @media only screen and (min-width: 1024px) {
+    // ==== For Desktop Screens Only ====   
+      h1:hover > .header-portion:hover {
+        opacity: 1;
+        cursor:pointer;
+      }
+}
 
 </style>

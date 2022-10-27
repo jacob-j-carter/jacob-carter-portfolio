@@ -42,6 +42,18 @@
       </h2>
       <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/final/index.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
     </section>
+
+    <div class="flex justify-end w-full mt-8">
+      <a :href="project.websiteURL" target="_blank">
+        <button class="flex font-size-28 items-center mt-8 md:mt-0">
+          View Live Site
+          <div class="w-6 ml-4">
+            <img src="/assets/images/icons/arrow.svg" alt="hand waving icon" class="w-full" />
+          </div>
+        </button>
+      </a>
+    </div>
+
   </article>
   
   
@@ -52,6 +64,7 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
 import PortfolioTemplate from './PortfolioTemplate.vue';
+import portfolioItems from '../../data/portfolioItems.json'
 
 export default {
   name: 'CSSDisplayInfo',
@@ -64,8 +77,9 @@ export default {
   // },
   data () {
     return {
+      project: portfolioItems[1],
       projectName: 'CSS Display Info',
-      projectLink: 'cssdisplayinfo'
+      projectLink: 'cssdisplayinfo',
     }
   },
   // methods: {
