@@ -8,7 +8,7 @@
       </a>
 
       <div class="flex items-center justify-end text-white">
-        <a :key="page.pageName" v-for="page in pages" :href="page.pageHREF" class="button-font font-size-14 mx-4 rounded-full page-link px-2" :class="[pageName == page.pageName ? '' : '']">{{ page.pageName }}</a>
+        <a :key="page.pageName" v-for="page in pages" :href="page.pageHREF" class="button-font font-size-14 mx-6 hover:opacity-70" :class="[pageName == page.pageName ? 'line-through' : '']">{{ page.pageName }}</a>
       </div>
 
     </header>
@@ -54,8 +54,5 @@ export default {
   @use '../../sass/abstracts' as *;
   @use '../../sass/themes' as *;
 
-  .page-link {
-    border: 1px solid white;
-  }
 
 </style>
