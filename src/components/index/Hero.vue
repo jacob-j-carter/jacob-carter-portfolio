@@ -1,8 +1,8 @@
 <template>
 
-  <section class="mt-40">
+  <section class="mt-40 md:mt-56 md:mb-48">
 		
-    <article class="wrapper px-4">
+    <article class="wrapper px-4 md:px-16">
       <h1 class="text-stone-200 pt-4 mb-24">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
@@ -24,10 +24,10 @@
           </button>
         </a>
         <a href="#library" class="hidden md:inline">
-          <button class="flex font-size-28 items-center md:ml-8">
+          <button class="flex font-size-28 items-center md:ml-12">
             My Projects
             <div class="w-6 ml-4">
-              <img src="/assets/images/icons/briefcase.svg" alt="hand waving icon" class="w-full" />
+              <img src="/assets/images/icons/briefcase.svg" alt="briefcase icon" class="w-full" />
             </div>
           </button>
         </a>
