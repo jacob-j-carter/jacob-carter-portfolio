@@ -4,8 +4,8 @@
     <PortfolioTemplate :projectIndex="1" />
 
     
-    <section>
-      <h2 class="text-white font-size-48 my-8 mt-16 mb-8">
+    <section class="my-8">
+      <h2 class="text-white font-size-48 my-8">
         Goal of project
       </h2>
       
@@ -16,7 +16,7 @@
         I wanted a website that would display the most common flexbox properties, as well as the most common values for such properties. A text animation would cycle through these values, displaying an appropriate graphic to go alongside it. My goal was to regularly use the website for reference when building future projects, which I (and others) eventually did.
       </p>
       
-      <h2 class="text-white font-size-48 mt-16 mb-8">
+      <h2 class="text-white font-size-48 my-8">
         Challenges Faced
       </h2>
       
