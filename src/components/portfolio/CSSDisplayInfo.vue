@@ -1,19 +1,19 @@
 <template>
 
-  <div>
-
-  </div>
+  <PortfolioTemplate :projectIndex="1" />
 
 </template>
 
 
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import PortfolioTemplate from './PortfolioTemplate.vue';
 
 export default {
-  name: 'Placeholder',
+  name: 'CSSDisplayInfo',
   components: {
 		Icon,
+    PortfolioTemplate,
 	},
   // props: {
 
