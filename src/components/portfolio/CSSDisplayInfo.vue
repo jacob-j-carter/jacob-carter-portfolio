@@ -1,26 +1,26 @@
 <template>
 
-  <article class="px-4 wrapper">
+  <article class="px-4 md:px-16 wrapper">
     <PortfolioTemplate :projectIndex="1" />
 
     
     <section class="my-8">
-      <h2 class="text-white font-size-48 my-8">
+      <h2 class="text-white font-size-48 my-8 md:mt-16">
         Goal of project
       </h2>
       
-      <p class="text-white">
+      <p class="text-white md:w-4/5">
         After a couple of weeks learning HTML and CSS, I regularly struggled to remember CSS flexbox, which would frustrate me endlessly when buildings layouts. I decided that the best way to effectively learn flexbox was to build a project focused entirely on the given subject.
         <br>
         <br>
         I wanted a website that would display the most common flexbox properties, as well as the most common values for such properties. A text animation would cycle through these values, displaying an appropriate graphic to go alongside it. My goal was to regularly use the website for reference when building future projects, which I (and others) eventually did.
       </p>
       
-      <h2 class="text-white font-size-48 my-8">
+      <h2 class="text-white font-size-48 my-8 md:mt-16">
         Challenges Faced
       </h2>
       
-      <p class="text-white">
+      <p class="text-white md:w-4/5">
         More than any previous client project, I managed to design a wireframe and hi-fi Figma prototype that was almost identical to the final product. Being a relatively simple project, there weren’t many technical hiccoughs. However, my problems came about when trying to deploy the website.
         <br>
         <br>
@@ -31,19 +31,23 @@
       </p>
     </section>
 
-    <section>
-      <h2 class="text-white font-size-48 my-8">
-        Wireframes  
-      </h2>
-      <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/wireframe/index.png'" :alt="'Wireframe of ' + projectName + ' website'" class="w-full">
+    <section class="md:mt-16 md:flex">
+      <div class="md:mr-2">
+        <h2 class="text-white font-size-48 my-8">
+          Wireframes  
+        </h2>
+        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/wireframe/index.png'" :alt="'Wireframe of ' + projectName + ' website'" class="w-full">
+      </div>
     
-      <h2 class="text-white font-size-48 my-8">
-        Final Product
-      </h2>
-      <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/final/index.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
+      <div class="md:ml-2">
+        <h2 class="text-white font-size-48 my-8">
+          Final Product
+        </h2>
+        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/final/index.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
+      </div>
     </section>
 
-    <div class="flex justify-end w-full mt-8">
+    <div class="flex justify-end w-full mt-8 md:mt-16">
       <a :href="project.websiteURL" target="_blank">
         <button class="flex font-size-28 items-center mt-8 md:mt-0">
           View Live Site

@@ -2,7 +2,7 @@
 
   <article>
     <div class="w-full border-b-2 border-b-solid border-b-white py-4 mt-32">
-      <img :src="project.thumbnailURL" :alt="'mockup of' + project.name + 'website'">
+      <img :src="project.thumbnailURL" :alt="'mockup of' + project.name + 'website'" class="w-full md:h-96">
       <h1 class="text-white my-4 font-size-56">
         {{project.name}}
       </h1>
