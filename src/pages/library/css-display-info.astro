@@ -5,6 +5,7 @@ import pageData from '../../data/pageData.json';
 
 // Importing components
 import Layout from "../../layouts/Layout.astro";
+import CSSDisplayInfo from "../../components/portfolio/CSSDisplayInfo.vue";
 
 
 
@@ -19,7 +20,6 @@ let currentPage = pageData[1].pageName;
 <Layout title={'Jacob Carter\'s Digital Portfolio'} page={currentPage} >
 	<!-- HTML content -->
 	
-	
-
+	<CSSDisplayInfo />
 
 </Layout>
