@@ -1,8 +1,8 @@
 <template>
 
-  <div :key="project.name" v-for="project in portfolioItems" class="w-full border-b-2 border-b-solid border-b-white py-4 mt-8">
+  <div :key="project.name" v-for="project in portfolioItems" class="w-full border-b-2 border-b-solid border-b-white py-4 mt-8 md:mt-16">
     <a :href="project.itemHREF">
-      <img :src="project.thumbnailURL" :alt="'mockup of' + project.name + 'website'">
+      <img :src="project.thumbnailURL" :alt="'mockup of' + project.name + 'website'" class="md:h-96 w-full">
       <h3 class="text-white font-size-56 my-4">
         {{project.name}}
       </h3>
