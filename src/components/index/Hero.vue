@@ -14,7 +14,7 @@
         jacob carter is a digital developer and lover of coffee
       </h2>
 
-      <div class="md:flex">
+      <div class="md:flex items-end">
         <a href="mailto:jacob@choicedigital.studio">
           <button class="flex font-size-28 items-center">
             Say Hello
@@ -23,8 +23,8 @@
             </div>
           </button>
         </a>
-        <a href="#library">
-          <button class="flex font-size-28 items-center mt-8 md:mt-0">
+        <a href="#library" class="hidden md:inline">
+          <button class="flex font-size-28 items-center md:ml-8">
             My Projects
             <div class="w-6 ml-4">
               <img src="/assets/images/icons/briefcase.svg" alt="hand waving icon" class="w-full" />
