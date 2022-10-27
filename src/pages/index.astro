@@ -10,6 +10,7 @@ import { Icon } from 'astro-icon';
 import Hero from '../components/index/Hero.vue';
 import Marquee from '../components/index/Marquee.vue';
 import LibraryItems from '../components/index/LibraryItems.vue';
+import PillImage from '../components/index/PillImage.vue';
 
 
 // Importing local SCSS
@@ -38,7 +39,7 @@ let currentPage = pageData[0].pageName;
 
 			<p class="text-stone-200 font-size-20 z-10">
 				Hello!
-				<img src="/assets/images/photos/pill-hello.png" alt="picture of an interior" class="inline mx-2 h-8">
+				<PillImage imgAlt="Picture of computer with hello written on it" imgName="hello" />
 				I’m Jacob, an experienced <strong class="font-size-20">web designer</strong> and <strong class="font-size-20">developer</strong> based in Gloucestershire, England
 				<img src="/assets/images/photos/pill-gloucestershire.png" alt="picture of gloucestershire, england countryside" class="inline mx-2 h-8">
 				who loves designing beautiful
