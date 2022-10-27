@@ -9,8 +9,9 @@
 
 .blur-container-1 {
   height: 40em;
-  top:87.5em;
-  left:-8em;
+  top:50%;
+  left:50%;
+  translate: -50% -50%;
   animation: blurSpin 20000ms linear infinite;
 
   .yellow-blur {
