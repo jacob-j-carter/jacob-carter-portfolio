@@ -1,9 +1,9 @@
 <template>
 
-  <section class="mt-40 md:mt-56 md:mb-48">
+  <section class="mt-40 md:mt-56 md:mb-48 lg:mt-40">
 		
     <article class="wrapper px-4 md:px-16">
-      <h1 class="text-stone-200 pt-4 mb-24">
+      <h1 class="text-stone-200 pt-4 mb-24 lg:w-4/5">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
         <span class="header-portion">digital developer </span>
@@ -86,6 +86,10 @@ export default {
       h1:hover > .header-portion:hover {
         opacity: 1;
         cursor:pointer;
+      }
+
+      .header-portion:nth-of-type(1):hover {
+        cursor: url('/assets/gifs/cat-coding-1.gif'), auto !important;
       }
 }
 
