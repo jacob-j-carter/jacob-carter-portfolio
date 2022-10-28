@@ -11,6 +11,7 @@ import Hero from '../components/index/Hero.vue';
 import Marquee from '../components/index/Marquee.vue';
 import LibraryItems from '../components/index/LibraryItems.vue';
 import PillImage from '../components/index/PillImage.vue';
+import HoverGif from '../components/interactive/HoverGif.vue';
 
 
 // Importing local SCSS
@@ -51,7 +52,9 @@ let currentPage = pageData[0].pageName;
 						<br>
 						With a background in interior design, 
 						<PillImage imgAlt="Picture of modern architecture" imgName="interiordesign" />
-						I love to make websites that don’t just function brilliantly, but <strong class="font-size-20">look gorgeous</strong> too.
+						I love to make websites that don’t just function brilliantly, but 
+						<HoverGif content="look gorgeous" gifURL="https://media0.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif?cid=ecf05e47v8zbw22quzw6bwktor92n7cdl414n1jvwbcky82i&rid=giphy.gif&ct=g" client:load />
+						too.
 						
 					</p>
 					<div class="blur-container-1 aspect-square flex justify-between items-center absolute">
@@ -131,7 +134,7 @@ let currentPage = pageData[0].pageName;
 							Development of the website can often be the most daunting part of the process, especially when it comes to communicating with clients. I never want to scare the client with <strong class="font-size-18">fancy tech jargan</strong> (that doesn’t really mean anything).
 							<br>
 							<br>
-							I find the development of the website an engaging and thrilling process, where I can act out my <strong class="font-size-18">coding montage</strong>. Resisting my urge to nerd-out on any poor soul that happen to be in earshot, I discuss progress in an understandable and meaningful way throughout the process.
+							I find the development of the website an engaging and thrilling process, where I can act out my <HoverGif content="coding montage" gifURL="https://media0.giphy.com/media/E6jscXfv3AkWQ/giphy.gif?cid=ecf05e47xbjv0yr0on0bj335szea9kkdolmkdhnlptt1vgmx&rid=giphy.gif&ct=g" client:load />. Resisting my urge to nerd-out on any poor soul that happen to be in earshot, I discuss progress in an understandable and meaningful way throughout the process.
 							<br>
 							<br>
 							After using countless website builders, such as WordPress, Shopify, and Squarespace, I came to the conclusion that coding websites from scratch would give me the most flexibility and creative freedom to get the job done.
