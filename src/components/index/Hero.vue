@@ -1,14 +1,22 @@
 <template>
 
-  <section class="mt-40 md:mt-56 md:mb-48 lg:mt-40">
-		
+  <section class="mt-40 md:mt-56 md:mb-48 lg:mt-40 relative">
+
+    
+
     <article class="wrapper px-4 md:px-16">
-      <h1 class="text-stone-200 pt-4 mb-24 lg:w-4/5">
+      <h1 class="text-stone-200 pt-4 mb-24 lg:w-4/5 relative">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
-        <span class="header-portion">digital developer </span>
+        <span id="digital-developer" class="header-portion" @mousemove="updateCoordinates" >digital developer </span>
+
+        <img src="https://media3.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif?cid=ecf05e47sxnh5ksz4i0y3koysrsw6fr7k7qs3v15p2fwqudc&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y - 225) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-developer" class="gif-cursor">
+
         <span>& </span>
-        <span class="header-portion">lover of coffee</span>
+        <span class="header-portion" @mousemove="updateCoordinates" id="lover-of-coffee">lover of coffee</span>
+
+        <img src="https://media4.giphy.com/media/AYSPpvHktnVWU/giphy.gif?cid=ecf05e479ov7a485vr2dwds55ezd1mf2q1anc8at2y6hikd2&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-coffee" class="gif-cursor">
+
       </h1>
       <h2 class="sr-only">
         jacob carter is a digital developer and lover of coffee
@@ -51,14 +59,19 @@ export default {
   // props: {
 
   // },
-  // data () {
-  //   return {
-      
-  //   }
-  // },
-  // methods: {
-
-  // },
+  data() {
+    return {
+      x: 500,
+      y: 350,
+      cursorOpacity: 0
+    }
+  },
+  methods: {
+    updateCoordinates: function(event) {
+      this.x = event.clientX;
+      this.y = event.clientY;
+    },
+  }
   // created () {
 
   // }
@@ -80,6 +93,16 @@ export default {
     opacity: 1;
   }
 
+  .gif-cursor {
+    position: absolute;
+    width: 3em;
+    border-radius: .5em;
+    translate: -50% -50%;
+    transition: top 500ms linear, left 500ms linear, opacity 150ms linear;
+    opacity: 0;
+    z-index: -1;
+  }
+
 
   @media only screen and (min-width: 1024px) {
     // ==== For Desktop Screens Only ====   
@@ -88,8 +111,11 @@ export default {
         cursor:pointer;
       }
 
-      .header-portion:nth-of-type(1):hover {
-        cursor: url('/assets/gifs/cat-coding-1.gif'), auto !important;
+      #digital-developer:hover ~ #cursor-developer {
+        opacity: 1;
+      }
+      #lover-of-coffee:hover ~ #cursor-coffee {
+        opacity: 1;
       }
 }
 
