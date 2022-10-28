@@ -23,19 +23,19 @@
       </h2>
 
       <div class="md:flex items-end">
+        <a href="#library" class="hidden md:inline">
+          <button class="flex font-size-24 items-center md:mr-12">
+            My Projects
+            <div class="w-6 ml-4">
+              <img src="/assets/images/icons/briefcase.svg" alt="briefcase icon" class="w-full" />
+            </div>
+          </button>
+        </a>
         <a href="mailto:jacob@choicedigital.studio">
           <button class="flex font-size-24 items-center">
             Say Hello
             <div class="w-6 ml-4">
               <img src="/assets/images/icons/handwave.svg" alt="hand waving icon" class="w-full" />
-            </div>
-          </button>
-        </a>
-        <a href="#library" class="hidden md:inline">
-          <button class="flex font-size-24 items-center md:ml-12">
-            My Projects
-            <div class="w-6 ml-4">
-              <img src="/assets/images/icons/briefcase.svg" alt="briefcase icon" class="w-full" />
             </div>
           </button>
         </a>
