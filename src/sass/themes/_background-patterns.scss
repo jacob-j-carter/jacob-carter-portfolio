@@ -17,7 +17,7 @@ body {
   left:0;
   bottom:0;
   opacity: .05;
-  z-index: 1000;
+  z-index: -2;
   pointer-events: none;
   background-image: url('/assets/gifs/noise.gif');
 }
