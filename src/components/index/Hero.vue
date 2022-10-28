@@ -108,7 +108,6 @@ export default {
     // ==== For Desktop Screens Only ====   
       h1:hover > .header-portion:hover {
         opacity: 1;
-        cursor:pointer;
       }
 
       #digital-developer:hover ~ #cursor-developer {
