@@ -6,7 +6,7 @@
       <h3 class="text-white font-size-48 my-4 lg:my-0">
         {{project.name}}
       </h3>
-      <div class="flex justify-between items-center lg:items-end">
+      <div class="flex justify-between items-center lg:items-end flex-wrap lg:flex-nowrap">
         <p :key="tag.tag" v-for="tag in project.tags" class="text-stone-300 uppercase lg:ml-4">
           {{ tag.tag }}
         </p>
