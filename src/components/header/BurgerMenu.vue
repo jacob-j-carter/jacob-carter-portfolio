@@ -1,16 +1,16 @@
 <template>
   <div :class="[navHidden ? '' : 'overlay-on']" >
     <nav
-      class="bg-stone-100 w-2/3 md:w-2/5 right-0 flex flex-col items-center justify-center fixed z-30"
+      class="bg-black w-2/3 md:w-2/5 right-0 flex flex-col items-center justify-center fixed z-30"
       :class="[navHidden ? 'nav-hidden' : '']"
     >
       <div @click="$emit('close-nav')">
-        <Icon icon="ei:close" width="32" class="text-black absolute right-4 top-4 w-8 h-8" />
+        <Icon icon="ei:close" width="32" class="text-white absolute right-4 top-4 w-8 h-8" />
       </div>
 
       <div :key="page.pageName" v-for="page in pages" class="my-8">
         <a :href="page.pageHREF" @click="$emit('close-nav')">
-          <h3 class="uppercase text-black" :class="[pageName == page.pageName ? 'heading-font' : 'button-font']">
+          <h3 class="uppercase text-white" :class="[pageName == page.pageName ? 'line-through' : 'button-font font-size-40']">
             {{ page.pageName }}
           </h3>
         </a>
