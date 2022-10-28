@@ -2,22 +2,23 @@
 @use '../themes' as *;
 
 
-// /* width */
-// ::-webkit-scrollbar {
-//   width: 1.5em;
-// }
+/* width */
+::-webkit-scrollbar {
+  width: .5em;
+}
 
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: rgb(227, 227, 227);
-// }
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
 
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   background: cornflowerblue;
-// }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 100vw;
+}
 
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: rgb(178, 229, 246);
-// }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(236, 236, 236);
+}
