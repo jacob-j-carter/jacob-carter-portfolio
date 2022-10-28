@@ -16,7 +16,7 @@
         I wanted a website that would display the most common flexbox properties, as well as the most common values for such properties. A text animation would cycle through these values, displaying an appropriate graphic to go alongside it. My goal was to regularly use the website for reference when building future projects, which I (and others) eventually did.
       </p>
       
-      <h2 class="text-white font-size-48 my-8 md:mt-16">
+      <h2 class="text-white font-size-48 my-8 md:mt-16 lg:mt-20">
         Challenges Faced
       </h2>
       
@@ -49,7 +49,7 @@
 
     <div class="flex justify-end w-full mt-8 md:mt-16">
       <a :href="project.websiteURL" target="_blank">
-        <button class="flex font-size-28 items-center mt-8 md:mt-0">
+        <button class="flex font-size-24 items-center mt-8 md:mt-0">
           View Live Site
           <div class="w-6 ml-4">
             <img src="/assets/images/icons/arrow.svg" alt="hand waving icon" class="w-full" />
