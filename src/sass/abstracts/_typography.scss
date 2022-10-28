@@ -142,3 +142,7 @@ p, a, b, strong, em, i, mark, select, blockquote, input {
   line-height: 165%;
   font-family: $body-font;
 }
+
+a {
+  cursor: pointer !important;
+}
