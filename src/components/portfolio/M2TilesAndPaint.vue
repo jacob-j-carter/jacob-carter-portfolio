@@ -1,7 +1,7 @@
 <template>
 
   <article class="px-4 md:px-16 wrapper">
-    <PortfolioTemplate :projectIndex="1" />
+    <PortfolioTemplate :projectIndex="0" />
 
     
     <section class="my-8">
@@ -9,42 +9,51 @@
         Goal of project
       </h2>
       
-      <p class="text-white md:w-4/5">
-        After a couple of weeks learning HTML and CSS, I regularly struggled to remember CSS flexbox, which would frustrate me endlessly when buildings layouts. I decided that the best way to effectively learn flexbox was to build a project focused entirely on the given subject.
+      <p class="text-white md:w-2/3">
+        I worked in the M2 Tiles & Paint showroom/store between 12th June 2021 and 13th August 2022. When I joined, the store eCommerce website had been developed by a third-party on Shopify. Although the functionality of the eCommerce site was on par with what M2 Tiles & Paint needed at the time, the UI and UX were very poor. This was a substantial issue for the store, as it marketed itself as a place to get practical and professional design advice for the homes of customers; having a bland, unappealing website negatively impacted the public image of M2 Tiles & Paint significantly.
         <br>
         <br>
-        I wanted a website that would display the most common flexbox properties, as well as the most common values for such properties. A text animation would cycle through these values, displaying an appropriate graphic to go alongside it. My goal was to regularly use the website for reference when building future projects, which I (and others) eventually did.
+        Thankfully, most of the technical functionality of the website had already been setup (aside from a few incorrect product details). Shopify provides a good deal of aesthetic choices, while keeping the process of building a website relatively simple. Given this information, I decided to start the website from scratch between breaks from talking to customers.
+        <br>
+        <br>
+        Immediately, my design provided a much better representation of the business. My keen eye for detail provided the online store with a beautiful look and feel - going from a dull white and green colour scheme, to a vibrant range of hue, given in large part by the store’s wide selection of gorgeous paints and tiles.
+        <br>
+        <br>
+        Later in the process, I connected Google Analytics to the website, which demonstrated to M2 Tiles & Paint where marketing resources should be focussed.
       </p>
       
       <h2 class="text-white font-size-48 my-8 md:mt-16 lg:mt-20">
         Challenges Faced
       </h2>
       
-      <p class="text-white md:w-4/5">
-        More than any previous client project, I managed to design a wireframe and hi-fi Figma prototype that was almost identical to the final product. Being a relatively simple project, there weren’t many technical hiccoughs. However, my problems came about when trying to deploy the website.
+      <p class="text-white md:w-2/3">
+        As Shopify does most of the technical work for you, building the M2 Tiles & Paint website wasn’t a huge hurdle. The larger problem came with the sheer scale of the website. M2 Tiles & Paint is a stockist of multiple suppliers from across Europe - totalling 18,000+ products that would be displayed on the website. Using a .csv Microsoft Excel file, I manually documented all products with appropriate descriptions, prices, images, tags and more.
         <br>
         <br>
-        Without the knowledge I have now of front-end website deployment services, such as Netlify and Vercel, my only obvious option at the time was to create a custom WordPress theme for CSS Display Info. Creating a WordPress theme took an unnecessary amount of time to learn and develop, though it gave me some beginner knowledge into PHP.
-        <br>
-        <br>
-        This was also my first encounter with browser support issues. I learnt after publishing the website, through a comment on Reddit, that the websites UI had been terribly disfigured on Mozilla Firefox. I later found out that some of the methods of importing fonts, animations, and the blur property had differing levels of support to other browsers, such as Chrome and Opera. I later fixed these discrepancies when I moved from WordPress to Netlify.
+        Being the first large web project, M2 Tiles & Paint gave me the motivation and knowledge to begin my front-end engineering career. Although it wasn’t a huge technical challenge, knowing that I could effectively create a beautiful web design that would perfectly match the businesses brand identity led me to kickstart my freelance work, and later found Choice Digital Studio. 
       </p>
     </section>
 
-    <section class="md:mt-16 md:flex">
+    <section class="md:mt-16 md:grid md:grid-cols-2">
       <div class="md:mr-2">
         <h2 class="text-white font-size-48 my-8">
-          Wireframes  
+          Homepage  
         </h2>
-        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/wireframe/index.png'" :alt="'Wireframe of ' + projectName + ' website'" class="w-full">
+        <img :src="'/assets/images/portfolio/m2tilesandpaint/showcase/final/homepage.png'" :alt="'Screenshot of ' + projectName + ' homepage'" class="w-full">
       </div>
-    
-      <div class="md:ml-2">
+      <div class="md:mr-2 ">
         <h2 class="text-white font-size-48 my-8">
-          Final Product
+          Blog  
         </h2>
-        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/final/index.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
+        <img :src="'/assets/images/portfolio/m2tilesandpaint/showcase/final/blog.png'" :alt="'Screenshot of ' + projectName + ' blog'" class="w-full">
       </div>
+      <div class="md:mr-2">
+        <h2 class="text-white font-size-48 my-8">
+          Paint Store 
+        </h2>
+        <img :src="'/assets/images/portfolio/m2tilesandpaint/showcase/final/paint.png'" :alt="'Screenshot of ' + projectName + ' paint shop'" class="w-full">
+      </div>
+
     </section>
 
     <div class="flex justify-end w-full mt-8 md:mt-16">
@@ -71,7 +80,7 @@ import PortfolioTemplate from './PortfolioTemplate.vue';
 import portfolioItems from '../../data/portfolioItems.json'
 
 export default {
-  name: 'CSSDisplayInfo',
+  name: 'M2 Tiles & Paint',
   components: {
 		Icon,
     PortfolioTemplate,
@@ -81,9 +90,9 @@ export default {
   // },
   data () {
     return {
-      project: portfolioItems[1],
-      projectName: 'CSS Display Info',
-      projectLink: 'cssdisplayinfo',
+      project: portfolioItems[0],
+      projectName: 'M2 Tiles & Paint',
+      projectLink: 'm2tilesandpaint',
     }
   },
   // methods: {

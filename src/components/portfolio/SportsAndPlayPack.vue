@@ -1,7 +1,7 @@
 <template>
 
   <article class="px-4 md:px-16 wrapper">
-    <PortfolioTemplate :projectIndex="3" />
+    <PortfolioTemplate :projectIndex="1" />
 
     
     <section class="my-8">
@@ -10,10 +10,16 @@
       </h2>
       
       <p class="text-white md:w-2/3">
-        After a couple of weeks learning HTML and CSS, I regularly struggled to remember CSS flexbox, which would frustrate me endlessly when buildings layouts. I decided that the best way to effectively learn flexbox was to build a project focused entirely on the given subject.
+        Sports & Play Consulting Ltd. is a small consulting firm in South West England which specializes in giving specialist advice to government bodies, such as schools and parish councils, relating to construction projects, safety regulations, and others services.
         <br>
         <br>
-        I wanted a website that would display the most common flexbox properties, as well as the most common values for such properties. A text animation would cycle through these values, displaying an appropriate graphic to go alongside it. My goal was to regularly use the website for reference when building future projects, which I (and others) eventually did.
+        Being physically limited to areas in proximity to the Gloucestershire area, Sports & Play Consulting Ltd. looked to expand its reach through a remote consulting service for schools starting new construction projects.
+        <br>
+        <br>
+        My task for this project was to create a professional website for hundreds of schools to view across the UK. Sports & Play Consulting Ltd. needed a way for schools to purchase a ‘pack’ that would include a zip file including a set of instructions and advice that schools would use in their project.
+        <br>
+        <br>
+        For this requirement, I choice WordPress, Avada Theme, and Woo Commerce. Of course, Figma was used for the UI/UX design.
       </p>
       
       <h2 class="text-white font-size-48 my-8 md:mt-16 lg:mt-20">
@@ -36,14 +42,14 @@
         <h2 class="text-white font-size-48 my-8">
           Wireframes  
         </h2>
-        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/wireframe/index.png'" :alt="'Wireframe of ' + projectName + ' website'" class="w-full">
+        <img :src="'/assets/images/portfolio/sportsandplaypack/showcase/wireframe/package.png'" :alt="'Wireframe of ' + projectName + ' website'" class="w-full">
       </div>
     
       <div class="md:ml-2">
         <h2 class="text-white font-size-48 my-8">
           Final Product
         </h2>
-        <img :src="'/assets/images/portfolio/' + projectLink + '/showcase/final/index.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
+        <img :src="'/assets/images/portfolio/sportsandplaypack/showcase/final/package.png'" :alt="'Screenshot of ' + projectName + ' website'" class="w-full">
       </div>
     </section>
 
@@ -81,9 +87,9 @@ export default {
   // },
   data () {
     return {
-      project: portfolioItems[3],
-      projectName: 'CSS Display Info',
-      projectLink: 'cssdisplayinfo',
+      project: portfolioItems[1],
+      projectName: 'Sports & Play Pack',
+      projectLink: 'sportsandplaypack',
     }
   },
   // methods: {

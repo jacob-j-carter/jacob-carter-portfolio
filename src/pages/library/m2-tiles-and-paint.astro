@@ -5,7 +5,7 @@ import pageData from '../../data/pageData.json';
 
 // Importing components
 import Layout from "../../layouts/Layout.astro";
-import CSSDisplayInfo from "../../components/portfolio/CSSDisplayInfo.vue";
+import M2TilesAndPaint from "../../components/portfolio/M2TilesAndPaint.vue";
 
 
 
@@ -13,13 +13,13 @@ import CSSDisplayInfo from "../../components/portfolio/CSSDisplayInfo.vue";
 // import '../sass/p_homepage/index.scss';
 
 
-let currentPage = pageData[2].pageName;
+let currentPage = pageData[0].pageName;
 
 ---
 
 <Layout title={'Jacob Carter\'s Digital Portfolio'} page={currentPage} >
 	<!-- HTML content -->
 	
-	<CSSDisplayInfo />
+	<M2TilesAndPaint />
 
 </Layout>
