@@ -3,7 +3,7 @@
   <strong class="font-size-20 relative" @mouseover="updateCoordinates">
     {{ content }}
 
-    <img :src="gifURL" class="rounded-xl hidden absolute lg:h-48 lg:w-64 lg:block hover-img" :style="'top:' + (y * .5) + 'px;' + 'left:' + (x * .05) + 'px;'">
+    <img :src="gifURL" class="rounded-xl hidden absolute lg:h-48 lg:w-64 lg:block hover-img" :style="'top:' + (y * .25) + 'px;' + 'left:' + (x * .15) + 'px;'">
   </strong>
 
 </template>

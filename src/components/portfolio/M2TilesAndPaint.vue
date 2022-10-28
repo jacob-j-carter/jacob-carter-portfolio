@@ -1,7 +1,7 @@
 <template>
 
   <article class="px-4 md:px-16 wrapper">
-    <PortfolioTemplate :projectIndex="3" />
+    <PortfolioTemplate :projectIndex="1" />
 
     
     <section class="my-8">
@@ -81,7 +81,7 @@ export default {
   // },
   data () {
     return {
-      project: portfolioItems[3],
+      project: portfolioItems[1],
       projectName: 'CSS Display Info',
       projectLink: 'cssdisplayinfo',
     }
