@@ -15,7 +15,7 @@
         <span>& </span>
         <span class="header-portion" @mousemove="updateCoordinates" id="lover-of-coffee">lover of coffee</span>
 
-        <img src="https://media4.giphy.com/media/AYSPpvHktnVWU/giphy.gif?cid=ecf05e479ov7a485vr2dwds55ezd1mf2q1anc8at2y6hikd2&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-coffee" class="gif-cursor">
+        <img src="https://media0.giphy.com/media/Y0jN3XvfZCNWM/giphy.gif?cid=ecf05e472izy4ye97vsyat4d52ucwqisvhkfnjhffcb2mwh9&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y - 225) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-coffee" class="gif-cursor">
 
       </h1>
       <h2 class="sr-only">
