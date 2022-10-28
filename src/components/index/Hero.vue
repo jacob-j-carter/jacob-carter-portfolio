@@ -10,12 +10,12 @@
         <span>is a </span>
         <span id="digital-developer" class="header-portion" @mousemove="updateCoordinates" >digital developer </span>
 
-        <img src="https://media3.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif?cid=ecf05e47sxnh5ksz4i0y3koysrsw6fr7k7qs3v15p2fwqudc&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y - 225) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-developer" class="gif-cursor">
+        <img src="https://media3.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif?cid=ecf05e47sxnh5ksz4i0y3koysrsw6fr7k7qs3v15p2fwqudc&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y * .4) + 'px;' + 'left:' + (x * .5) + 'px;'" id="cursor-developer" class="gif-cursor">
 
         <span>& </span>
         <span class="header-portion" @mousemove="updateCoordinates" id="lover-of-coffee">lover of coffee</span>
 
-        <img src="https://media0.giphy.com/media/Y0jN3XvfZCNWM/giphy.gif?cid=ecf05e472izy4ye97vsyat4d52ucwqisvhkfnjhffcb2mwh9&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y - 225) + 'px;' + 'left:' + (x - 250) + 'px;'" id="cursor-coffee" class="gif-cursor">
+        <img src="https://media0.giphy.com/media/Y0jN3XvfZCNWM/giphy.gif?cid=ecf05e472izy4ye97vsyat4d52ucwqisvhkfnjhffcb2mwh9&rid=giphy.gif&ct=g" alt="" :style="'top:' + (y * .5) + 'px;' + 'left:' + (x * .55) + 'px;'" id="cursor-coffee" class="gif-cursor">
 
       </h1>
       <h2 class="sr-only">
