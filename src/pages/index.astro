@@ -30,32 +30,34 @@ let currentPage = pageData[0].pageName;
 	<!-- Marquee -->
 	<Marquee />
 
-	<section class="mt-40">
+	<section class="mt-40 lg:mt-64">
 
-		<article class="px-4 md:px-16 wrapper">
-			<img src="/assets/images/photos/jacobcarterheadshot-1.jpg" alt="photo of jacob carter sitting on stairs">
+		<article class="px-4 md:px-16 wrapper lg:px-0 lg:flex lg:items-center">
+			<img src="/assets/images/photos/jacobcarterheadshot-1.jpg" alt="photo of jacob carter sitting on stairs" class="lg:w-2/5">
 
-			<h2 class="display-font text-stone-100 font-size-96 my-8 md:my-12">01/</h2>
+			<div class="lg:w-3/5 lg:ml-8 lg:mt-0 lg:mb-12">
+				<h2 class="display-font text-stone-100 font-size-96 my-8 md:my-12 lg:mt-0 lg:mb-12">01/</h2>
 
-			<div class="relative">
-				<p class="text-stone-200 font-size-20 z-10 md:w-4/5 relative">
-					Hello!
-					<PillImage imgAlt="Picture of computer with hello written on it" imgName="hello" />
-					I’m Jacob, an experienced <strong class="font-size-20">web designer</strong> and <strong class="font-size-20">developer</strong> based in Gloucestershire, England
-					<PillImage imgAlt="Picture of the Gloucestershire, England countryside" imgName="gloucestershire" />
-					who loves designing beautiful
-					<PillImage imgAlt="Picture of abstract colors" imgName="design" />
-					websites (almost as much as my <strong class="font-size-20 ">morning coffee</strong>).
-					<br>
-					<br>
-					With a background in interior design, 
-					<PillImage imgAlt="Picture of modern architecture" imgName="interiordesign" />
-					I love to make websites that don’t just function brilliantly, but <strong class="font-size-20">look gorgeous</strong> too.
-					
-				</p>
-				<div class="blur-container-1 aspect-square flex justify-between items-center absolute">
-					<div class="yellow-blur"></div>
-					<div class="yellow-blur"></div>
+				<div class="relative">
+					<p class="text-stone-200 font-size-20 z-10 md:w-4/5 relative">
+						Hello!
+						<PillImage imgAlt="Picture of computer with hello written on it" imgName="hello" />
+						I’m Jacob, an experienced <strong class="font-size-20">web designer</strong> and <strong class="font-size-20">developer</strong> based in Gloucestershire, England
+						<PillImage imgAlt="Picture of the Gloucestershire, England countryside" imgName="gloucestershire" />
+						who loves designing beautiful
+						<PillImage imgAlt="Picture of abstract colors" imgName="design" />
+						websites (almost as much as my <strong class="font-size-20 ">morning coffee</strong>).
+						<br>
+						<br>
+						With a background in interior design, 
+						<PillImage imgAlt="Picture of modern architecture" imgName="interiordesign" />
+						I love to make websites that don’t just function brilliantly, but <strong class="font-size-20">look gorgeous</strong> too.
+						
+					</p>
+					<div class="blur-container-1 aspect-square flex justify-between items-center absolute">
+						<div class="yellow-blur"></div>
+						<div class="yellow-blur"></div>
+					</div>
 				</div>
 			</div>
 
@@ -67,7 +69,7 @@ let currentPage = pageData[0].pageName;
 
 	<!-- Services Section -->
 	<section class="mt-36">
-		<article class="wrapper px-4 md:px-16">
+		<article class="wrapper lg:px-0 px-4 md:px-16">
 
 			<h2 class="display-font text-stone-100 font-size-96">02/</h2>
 			<h2 class="text-white font-size-96">Services</h2>
@@ -133,7 +135,7 @@ let currentPage = pageData[0].pageName;
 	</section>
 
 	<section class="mt-40">
-		<article class="px-4 md:px-16 wrapper">
+		<article class="px-4 md:px-16 wrapper lg:px-0">
 			<h2 class="display-font text-stone-100 font-size-96">03/</h2>
 			<h2 class="text-stone-100 font-size-96 mb-8" id="library">Library</h2>
 

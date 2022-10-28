@@ -4,7 +4,7 @@
 
     
 
-    <article class="wrapper px-4 md:px-16">
+    <article class="wrapper px-4 md:px-16 lg:px-0">
       <h1 class="text-stone-200 pt-4 mb-24 lg:w-4/5 relative">
         <span id="header_jacob-carter">jacob carter </span>
         <span>is a </span>
