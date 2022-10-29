@@ -15,7 +15,7 @@
           </h3>
         </a>
       </div>
-      <div class="flex items-start relative top-48">
+      <div class="flex items-start relative top-24">
         <a href="https://github.com/Choice-Studio" target="_blank">
           <Icon icon="akar-icons:github-fill" class="text-white hover:text-stone-400 text-lg mr-4" />
         </a>
