@@ -1,8 +1,10 @@
-# 🚀 **Astro Webapp Template**:
+![image](/public/og-image-600x900.png)
 
-Documentation for this isn't exceptionally deep, as I expect myself to be the only user of this repo. If you'd like to start from this repo yourself, however, Astro provides great documentation [here](https://docs.astro.build/en/getting-started/).
+# **Jacob Carter Portfolio**
 
-Luckily, Astro provides magical support for most frameworks and libraries anyone might want to use. Unlike Webpack, Astro really does most of the work for you.
+It took me many months to come up with a design that would suit my personality, while displaying my skills. They say your worst client is yourself, and that's certainly true.
+
+In the end, however, I created a UI/UX design that I absolutely love. I try to show off my technical abilities throughout the website, while keeping it light.
 
 ---
 
@@ -20,10 +22,3 @@ npm run dev
 ```
 npm run build
 ```
-
-**Detach from git**:
-
-```
-rm -r -f .git
-```
-# jacob-carter-portfolio
