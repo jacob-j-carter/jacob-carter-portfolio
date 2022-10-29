@@ -15,7 +15,7 @@
           <a href="https://github.com/Choice-Studio" target="_blank">
             <Icon icon="akar-icons:github-fill" class="text-white hover:text-stone-400" />
           </a>
-          <a href="https://github.com/Choice-Studio" target="_blank">
+          <a href="https://www.linkedin.com/in/jacob-j-carter/" target="_blank">
             <Icon icon="akar-icons:linkedin-box-fill" class="text-white ml-4 hover:text-stone-400" />
           </a>
         </div>
