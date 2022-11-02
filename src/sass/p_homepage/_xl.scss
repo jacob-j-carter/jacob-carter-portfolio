@@ -2,9 +2,11 @@
 @use '../themes' as *;
 
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1800px) {
   // ==== For Desktop Screens Only ====
-
+  .development-heading {
+    @include font-size(84rem, 84vw)
+  }
   
 
 }
