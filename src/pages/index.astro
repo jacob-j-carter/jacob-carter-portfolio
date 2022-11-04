@@ -33,16 +33,16 @@ let currentPage = pageData[0].pageName;
 	<section class="mt-40 lg:mt-64">
 
 		<article class="px-4 md:px-16 wrapper lg:px-0 lg:flex lg:items-center">
-			<img src="/assets/images/photos/jacobcarterheadshot-1.jpg" alt="photo of jacob carter sitting on stairs" class="lg:w-2/5">
+			<img src="/assets/images/photos/jacobcarterheadshot-1.jpg" alt="photo of jacob carter sitting on stairs" class="lg:w-2/5" itemscope itemtype="https://schema.org/Person">
 
-			<div class="lg:w-3/5 lg:ml-8 lg:mt-0 lg:mb-12">
+			<div class="lg:w-3/5 lg:ml-8 lg:mt-0 lg:mb-12" itemscope itemtype="https://schema.org/creator">
 				<h2 class="display-font text-stone-100 font-size-96 my-8 md:my-12 lg:mt-0 lg:mb-12">01/</h2>
 
 				<div class="relative">
 					<p class="text-stone-200 font-size-20 z-10 md:w-4/5 relative">
 						Hello!
 						<PillImage imgAlt="Picture of computer with hello written on it" imgName="hello" />
-						I’m Jacob, an experienced <strong class="font-size-20">web designer</strong> and <strong class="font-size-20">developer</strong> based in Gloucestershire, England
+						I’m Jacob, an experienced <strong class="font-size-20">web designer</strong> and <strong class="font-size-20" itemtype="https://schema.org/Place" itemscope>developer</strong> based in Gloucestershire, England
 						<PillImage imgAlt="Picture of the Gloucestershire, England countryside" imgName="gloucestershire" />
 						who loves designing beautiful
 						<PillImage imgAlt="Picture of abstract colors" imgName="design" />
@@ -73,7 +73,7 @@ let currentPage = pageData[0].pageName;
 	</section>
 
 	<!-- Services Section -->
-	<section class="mt-36">
+	<section class="mt-36" itemscope itemtype="https://schema.org/Service">
 		<article class="wrapper lg:px-0 px-4 md:px-16 lg:flex lg:flex-wrap lg:items-end">
 			<div class="w-full">
 				<h2 class="display-font text-stone-100 font-size-96 ">02/</h2>
@@ -159,7 +159,7 @@ let currentPage = pageData[0].pageName;
 		</article>
 	</section>
 
-	<section class="mt-40 lg:mt-64">
+	<section class="mt-40 lg:mt-64" itemscope itemtype="https://schema.org/CreativeWork">
 		<article class="px-4 md:px-16 wrapper lg:px-0">
 			<h2 class="display-font text-stone-100 font-size-96">03/</h2>
 			<h2 class="text-stone-100 font-size-96 mb-8" id="library">Library</h2>
