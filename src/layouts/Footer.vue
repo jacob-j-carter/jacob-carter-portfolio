@@ -14,7 +14,6 @@
         <p class="uppercase text-right hidden md:inline md:text-left">All Rights Reserved</p>
       </div>
       <div class="text-white">
-        <p class="text-right">+44 7963 311156</p>
         <p class="text-right"><a href="mailto:jacob@choicedigital.studio">jacob@choicedigital.studio</a></p>
       </div>
     </div>
