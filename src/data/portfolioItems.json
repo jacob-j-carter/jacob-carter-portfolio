@@ -6,10 +6,13 @@
         "tag": "web development"
       },
       {
-        "tag": "web design"
+        "tag": "UI & UX"
       },
       {
         "tag": "ecommerce"
+      },
+      {
+        "tag": "Shopify"
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/m2tilesandpaint/showcase/mockups/macbook.png",
@@ -24,10 +27,13 @@
         "tag": "web development"
       },
       {
-        "tag": "web design"
+        "tag": "UI & UX"
       },
       {
         "tag": "ecommerce"
+      },
+      {
+        "tag": "wordpress"
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/sportsandplaypack/showcase/mockups/macbook.png",
@@ -36,16 +42,19 @@
     
   },
   {
-    "name": "Interior Design Solutions",
+    "name": "IDS Mojacar",
     "tags": [
       {
         "tag": "web development"
       },
       {
-        "tag": "web design"
+        "tag": "UI & UX"
       },
       {
         "tag": "logo design"
+      },
+      {
+        "tag": "wordpress"
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/interiordesignsolutions/showcase/mockups/macbook.png",
@@ -60,7 +69,7 @@
         "tag": "web development"
       },
       {
-        "tag": "web design"
+        "tag": "UI & UX"
       },
       {
         "tag": "side project"
@@ -81,7 +90,7 @@
         "tag": "web development"
       },
       {
-        "tag": "web design"
+        "tag": "UI & UX"
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png",
