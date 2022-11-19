@@ -1,6 +1,6 @@
 <template>
 
-  <section @mouseover="updateCoordinates">
+  <section @mousemove="updateCoordinates">
 
     <div :key="project.name" v-for="project in portfolioItems" class="w-full border-b-2 border-b-solid border-b-white py-4 mt-8 md:mt-16" >
       <a :href="project.itemHREF" class="lg:flex lg:justify-between relative">
