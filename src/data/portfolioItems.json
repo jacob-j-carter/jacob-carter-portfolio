@@ -42,27 +42,6 @@
     
   },
   {
-    "name": "IDS Mojacar",
-    "tags": [
-      {
-        "tag": "web development"
-      },
-      {
-        "tag": "UI & UX"
-      },
-      {
-        "tag": "logo design"
-      },
-      {
-        "tag": "wordpress"
-      }
-    ],
-    "thumbnailURL": "/assets/images/portfolio/interiordesignsolutions/showcase/mockups/macbook.png",
-    "itemHREF": "/library/interior-design-solutions",
-    "websiteURL": "https://ids-mojacar.com"
-    
-  },
-  {
     "name": "CSS Display Info",
     "tags": [
       {
