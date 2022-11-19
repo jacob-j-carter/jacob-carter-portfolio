@@ -27,13 +27,10 @@
       </h2>
       
       <p class="text-white md:w-2/3">
-        More than any previous client project, I managed to design a wireframe and hi-fi Figma prototype that was almost identical to the final product. Being a relatively simple project, there weren’t many technical hiccoughs. However, my problems came about when trying to deploy the website.
+        On the UI/UX side of the project, this was my first project using Figma to build a planned design to work off of in development. Although I created a great colour scheme and consistent design system for the buttons, I had no practical experience with how a UI/UX design would realistically translate into a developed website. This resulted in a Figma prototype that formed a general idea of what the website would look like in reality - a problem when presenting ideas to the client.
         <br>
         <br>
-        Without the knowledge I have now of front-end website deployment services, such as Netlify and Vercel, my only obvious option at the time was to create a custom WordPress theme for CSS Display Info. Creating a WordPress theme took an unnecessary amount of time to learn and develop, though it gave me some beginner knowledge into PHP.
-        <br>
-        <br>
-        This was also my first encounter with browser support issues. I learnt after publishing the website, through a comment on Reddit, that the websites UI had been terribly disfigured on Mozilla Firefox. I later found out that some of the methods of importing fonts, animations, and the blur property had differing levels of support to other browsers, such as Chrome and Opera. I later fixed these discrepancies when I moved from WordPress to Netlify.
+        As a consequence of this, the client had a hard time imagining what the final project might look like. This created a prolonged back and forth between ideas, extending the ETA for the project completion significantly. Given this, I eventually was able to create a sleek and professional UI/UX design that served all the needs of Sports & Play Pack.
       </p>
     </section>
 
@@ -77,7 +74,7 @@ import PortfolioTemplate from './PortfolioTemplate.vue';
 import portfolioItems from '../../data/portfolioItems.json'
 
 export default {
-  name: 'CSSDisplayInfo',
+  name: 'SportsAndPlayPack',
   components: {
 		Icon,
     PortfolioTemplate,
