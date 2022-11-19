@@ -1,9 +1,9 @@
 <template>
 
-  <strong class="font-size-20 relative" @mouseover="updateCoordinates">
+  <strong class="font-size-20 relative" @mousemove="updateCoordinates">
     {{ content }}
 
-    <img :src="gifURL" class="rounded-xl hidden absolute lg:h-48 lg:w-64 lg:block hover-img" :style="'top:' + (y * .25) + 'px;' + 'left:' + (x * .15) + 'px;'">
+    <img :src="gifURL" class="rounded-xl hidden absolute lg:h-48 lg:w-64 lg:block hover-img" :style="'top:' + (y * .25) + 'px;' + 'left:' + (x * .10) + 'px;'">
   </strong>
 
 </template>
@@ -23,7 +23,7 @@ export default {
   },
   data() {
     return {
-      x: 0,
+      x: 1000,
       y: 0,
       cursorOpacity: 0,
     }

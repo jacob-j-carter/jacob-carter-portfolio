@@ -1,12 +1,6 @@
 <template>
 
   <img :src="cursorImg" alt="funny gif relating to text being hovered over" @mousemove="updateCoordinates" :style="'top:' + y + 'px;' + 'left:' + x + 'px;'">
-  <h1 class="text-white">
-    {{ x }}
-  </h1>
-  <h1 class="text-white">
-    {{ y }}
-  </h1>
 
 </template>
 
