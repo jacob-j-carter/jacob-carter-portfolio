@@ -71,7 +71,7 @@ import PortfolioTemplate from './PortfolioTemplate.vue';
 import portfolioItems from '../../data/portfolioItems.json'
 
 export default {
-  name: 'CSSDisplayInfo',
+  name: 'SportsTalent',
   components: {
 		Icon,
     PortfolioTemplate,

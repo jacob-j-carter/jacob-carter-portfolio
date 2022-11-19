@@ -6,9 +6,6 @@
         "tag": "web development"
       },
       {
-        "tag": "UI & UX"
-      },
-      {
         "tag": "ecommerce"
       },
       {
@@ -23,6 +20,9 @@
   {
     "name": "Sports & Play Pack",
     "tags": [
+      {
+        "tag": "Figma"
+      },
       {
         "tag": "web development"
       },
@@ -45,6 +45,9 @@
     "name": "MediAid",
     "tags": [
       {
+        "tag": "Figma"
+      },
+      {
         "tag": "web development"
       },
       {
@@ -62,6 +65,9 @@
   {
     "name": "CSS Display Info",
     "tags": [
+      {
+        "tag": "Figma"
+      },
       {
         "tag": "web development"
       },
@@ -83,6 +89,9 @@
   {
     "name": "Sports Talent",
     "tags": [
+      {
+        "tag": "Figma"
+      },
       {
         "tag": "web development"
       },
