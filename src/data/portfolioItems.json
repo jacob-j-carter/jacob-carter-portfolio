@@ -42,6 +42,24 @@
     
   },
   {
+    "name": "MediAid",
+    "tags": [
+      {
+        "tag": "web development"
+      },
+      {
+        "tag": "UI & UX"
+      },
+      {
+        "tag": "Vue JS"
+      }
+    ],
+    "thumbnailURL": "/assets/images/portfolio/mediaid/showcase/mockups/macbook.png",
+    "itemHREF": "/library/mediaid",
+    "websiteURL": "https://mediaid.uk"
+    
+  },
+  {
     "name": "CSS Display Info",
     "tags": [
       {
@@ -70,6 +88,9 @@
       },
       {
         "tag": "UI & UX"
+      },
+      {
+        "tag": "Vue JS"
       }
     ],
     "thumbnailURL": "/assets/images/portfolio/sportstalent/showcase/mockups/imac-iphone.png",
