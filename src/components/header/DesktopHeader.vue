@@ -11,7 +11,7 @@
         <div class="flex items-center justify-end text-white">
           <a :key="page.pageName" v-for="page in pages" :href="page.pageHREF" class="button-font font-size-14 mx-6 hover:opacity-70" :class="[pageName == page.pageName ? 'line-through' : '']">{{ page.pageName }}</a>
         </div>
-        <div class="flex items-start">
+        <div class="flex items-start ml-6">
           <a href="https://github.com/Choice-Studio" target="_blank">
             <Icon icon="akar-icons:github-fill" class="text-white hover:text-stone-400" />
           </a>
