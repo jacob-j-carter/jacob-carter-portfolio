@@ -44,17 +44,7 @@ export default {
   components: {
 		Icon,
 	},
-  // data () {
-  //   return {
-      
-  //   }
-  // },
-  // methods: {
 
-  // },
-  // created () {
-
-  // }
 }
 
 </script>
