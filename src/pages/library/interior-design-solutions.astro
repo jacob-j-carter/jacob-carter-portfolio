@@ -1,0 +1,25 @@
+---
+
+// Importing data
+import pageData from '../../data/pageData.json';
+
+// Importing components
+import Layout from "../../layouts/Layout.astro";
+import InteriorDesignSolutions from "../../components/portfolio/InteriorDesignSolutions.vue";
+
+
+
+// Importing local SCSS
+// import '../sass/p_homepage/index.scss';
+
+
+let currentPage = pageData[1].pageName;
+
+---
+
+<Layout title={'Jacob Carter\'s Digital Portfolio'} page={currentPage} >
+	<!-- HTML content -->
+	
+	<InteriorDesignSolutions />
+
+</Layout>
