@@ -14,7 +14,7 @@
         <p class="uppercase text-right hidden md:inline md:text-left">All Rights Reserved</p>
       </div>
       <div class="text-white">
-        <p class="text-right"><a href="mailto:jcarterfreelance@outlook.com">jcarterfreelance@outlook.com</a></p>
+        <p class="text-right"><a href="mailto:jcarterfreelance@outlook.com">jcarterfrfelance@outlook.com</a></p>
       </div>
     </div>
 
