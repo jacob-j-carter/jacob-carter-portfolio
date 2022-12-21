@@ -82,16 +82,16 @@ export default {
   data () {
     return {
       project: portfolioItems[2],
-      projectName: 'Interior Design Solutions',
+      projectName: 'MediAid',
       projectLink: 'mediaid',
     }
   },
   // methods: {
 
   // },
-  // created () {
+  created () {
 
-  // }
+  }
 }
 
 </script>
