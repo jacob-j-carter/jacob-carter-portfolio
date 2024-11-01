@@ -1,7 +1,7 @@
 <template>
   <footer class="mt-36 w-full flex flex-col items-center p-4 relative">
 
-    <a href="mailto:jcarterfreelance@outlook.com">
+    <a href="mailto:jacob.young.carter@gmail.com">
       <button class="heading-font font-size-56 items-center flex justify-center px-16 py-16 mb-36">
         Say hello
       </button>
@@ -14,7 +14,7 @@
         <p class="uppercase text-right hidden md:inline md:text-left">All Rights Reserved</p>
       </div>
       <div class="text-white">
-        <p class="text-right"><a href="mailto:jcarterfreelance@outlook.com">jcarterfreelance@outlook.com</a></p>
+        <p class="text-right"><a href="mailto:jacob.young.carter@gmail.com">jacob.young.carter@gmail.com</a></p>
       </div>
     </div>
 

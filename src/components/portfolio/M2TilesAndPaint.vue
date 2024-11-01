@@ -56,17 +56,6 @@
 
     </section>
 
-    <div class="flex justify-end w-full mt-8 md:mt-16">
-      <a :href="project.websiteURL" :title="'website of ' + projectName" target="_blank">
-        <button class="flex font-size-24 items-center mt-8 md:mt-0">
-          View Live Site
-          <div class="w-6 ml-4">
-            <img src="/assets/images/icons/arrow.svg" alt="hand waving icon" class="w-full" />
-          </div>
-        </button>
-      </a>
-    </div>
-
   </article>
   
   

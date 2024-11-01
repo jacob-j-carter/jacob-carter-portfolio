@@ -31,7 +31,7 @@
             </div>
           </button>
         </a>
-        <a href="mailto:jcarterfreelance@outlook.com">
+        <a href="mailto:jacob.young.carter@gmail.com">
           <button class="flex font-size-24 items-center">
             Say Hello
             <div class="w-6 ml-4">
