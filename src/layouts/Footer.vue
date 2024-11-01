@@ -10,7 +10,7 @@
     <!-- Footer Text -->
     <div class="md:flex md:justify-between w-full">
       <div class="text-white w-full">
-        <p class="text-right md:text-left"><span>&#169; </span>{{new Date().getFullYear()}}</p>
+        <p class="text-right md:text-left"><span>&#169; </span>{{ new Date().getFullYear() }}</p>
         <p class="uppercase text-right hidden md:inline md:text-left">All Rights Reserved</p>
       </div>
       <div class="text-white">
